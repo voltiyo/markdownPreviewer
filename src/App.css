@@ -1,0 +1,69 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+*{
+  cursor: url("../public/cursor.png") 0 0, auto;
+}
+#editor{
+  border: none;
+  height: 80%;
+  border-radius: 15px;
+  padding: 10px;
+  width: 98%; 
+  resize: none;
+  background-color: gray;
+}
+nav{
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.editor-container{
+  pointer-events: auto;
+  background-color: rgb(95, 95, 95);
+  padding: 0 20px 20px 20px;
+  border-radius: 15px;
+  min-width: 200px;
+  width: 100%;
+  max-width: 100%;
+  resize: both;
+  overflow: auto;
+  min-height: 200px;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+#preview{
+  border: none;
+  height: max-content;
+  min-height: 80%;
+  border-radius: 15px;
+  padding: 10px;
+  width: 98%; 
+  resize: none;
+  background-color: gray;
+}
+code{
+  background-color: #fff;
+  color: black;
+}
+.preview-container{
+  pointer-events: auto;
+  background-color: rgb(95, 95, 95);
+  padding: 0 20px 20px 20px;
+  border-radius: 15px;
+  min-width: 200px;
+  width: 100%;
+  max-width: 100%;
+  resize: both;
+  overflow: auto;
+  min-height: 200px;
+  height: 350px;
+  margin-bottom: 10px;
+}
